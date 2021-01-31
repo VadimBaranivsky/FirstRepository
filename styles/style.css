@@ -1,0 +1,54 @@
+h2{
+    text-transform: uppercase;
+    color:crimson;
+}
+#heading{
+    border: 1px solid #000;
+}
+.fontlist{
+    list-style: georgian;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url('../fonts/montserrat-italic-webfont.woff') format('woff'),
+        url('../fonts/montserrat-italic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.po{
+    font-family: montserrat;
+}
+
+.product-item_tittle{
+  width:50%;
+  height:auto;
+  
+  margin: 10px auto;
+  padding:10px, 15px;
+  
+ 
+}
+.product-item_description{
+   
+}
+.product-item{
+    
+    margin-bottom: 20px; 
+    
+    background-color: rgb(146, 34, 103);
+    color:white;
+    border-radius:10px ;
+  /* box-shadow: #000 0 0 20px 10px; */
+}
+.small-image {
+    width:400px;
+}
+.small-image > img {
+
+}
+.pic > * {
+    max-width: 300px;
+}
